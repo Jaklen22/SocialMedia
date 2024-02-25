@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOCAIAL MEDIA</title>
+    <!-- ---------Custom css links-------------- -->
+    <link href="style.css" rel="stylesheet">
+    <!-- fondAweson links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  ---------- swiper slider link ---------- -->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+ <!---------------------Start Navbar------------------   -->
+ <nav>
+    <div class="container nav-container">
+        <div class="logo">
+            <h3>Social <span>Book</span></h3>
+        </div>
+        <div  class="search-bar">
+            <i class="fa fa-search"></i>
+            <input type="search" placeholder="search for creators">
+        </div>
+        <div class="add-post">
+            <label for="add-post" class="btn btn-primary mini-button">Add Post</label>
+            <div class="profile-picture"  id="my-profile-picture">
+                <img src="images/profile-1.jpeg"   >
+            </div>
+        </div>
+
+    </div>
+ 
+</nav>
+<!-- ---------------- End NavBar ------------------------ -->
+
+
+<!-- ----------------start main section ----------------- -->
+<main>
+    <div class="container main-container">
+        <!-- ------------- main left start -------------- -->
+        <div class="main-left"> 
+            <!-- -------start profile--------------->
+            <a  class="profile">
+                <div class="profile-picture" id="my-profile-picture">
+                    <img src="images/profile-1.jpeg" >
+                </div>
+                <div class="profile-handle">
+                    <h4>Beg Hoker</h4>
+                    <p class="text-gry">@thebegjoker</p>
+                </div>
+            </a>
+            <!-- -------end profile--------------->
+            
+                 
+            <!-- ------start aside bar ------------>
+            <aside>
+                <a  class="menu-item active">
+                    <span><img src="svgs/house-door.svg"></span><h3>Home</h3>
+                </a>
+
+                <a class="menu-item">
+                    <span><img src="svgs/joystick.svg"></span><h3>Explore</h3>
+                </a>
+
+                <a  class="menu-item" id="Notify-box">
+                    <span><img src="svgs/bell.svg"></span>
+                    <small class="notfy-counter" id="notCounter1">7+</small>
+                    <h3>Notification</h3>
+                <!------- Notification Box Start ------>
+                <div class="notification-box">
+                    <div>
+                        <div class="profile-picture">
+                            <img src="images/n1.jpg" >
+                        </div>
+                        <div class="notification-body">
+                            <b>Maria Mili</b> accepted your frind request
+                            <small class="text-gry">1 Days Ago</small>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="profile-picture">
+                            <img src="images/n2.png" >
+                        </div>
+                        <div class="notification-body">
+                            <b>Joo Ashraf</b> commented on your post
+                            <small class="text-gry">2 hour ago</small>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="profile-picture">
+                            <img src="images/n3.png" >
+                        </div>
+                        <div class="notification-body">
+                            <b>Jaklen Magdy</b> commented on your post
+                            <small class="text-gry">1 Day's Ago</small>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="profile-picture">
+                            <img src="images/n4.png" >
+                        </div>
+                        <div class="notification-body">
+                            <b>Mark Trump</b> and</b>10 other</b> liked on your post
+                            <small class="text-gry">Just now</small>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="profile-picture">
+                            <img src="images/n5.png" >
+                        </div>
+                        <div class="notification-body">
+                            <b>Tomas</b> and</b>2 other</b> send  you a frind request
+                            <small class="text-gry">3 munites ago</small>
+                        </div>
+                    </div>
+                </div>
+                <!------- Notification Box end -------->
+                </a>
+
+                <a  class="menu-item"id="messageMenu">
+                    <span><img src="svgs/chat-left-dots.svg"></span>
+                    <small class="notfy-counter" id="notCounter2">3+</small>
+                    <h3>Message</h3>
+                </a>
+
+                <a class="menu-item" >
+                    <span><img src="svgs/bookmarks.svg"></span><h3>Book Marks</h3>
+                </a>
+
+                <a  class="menu-item">
+                    <span><img src="svgs/graph-up-arrow.svg"></span><h3>Analytics</h3>
+                </a>
+
+                <a  class="menu-item">
+                    <span><img src="svgs/palette.svg"></span><h3>Theme</h3>
+                </a>
+
+                <a  class="menu-item " >
+                    <span><img src="svgs/gear.svg"></span>
+                    <h3>Settings</h3>
+                </a>
+            <!-- -------------  Add Post Btn------------ -->
+            <label for="add-post" class="btn btn-primary btn-lg" id="create-lg"> Create Post</label>            
+            </aside>           
+            <!-- ------end aside bar ------------>
+
+        </div>
+        <!-- --------------main left end ------------------- -->
+        
+        
+        <!-- =================== main middle start =============--->
+        <div class="main-middle">
+         <div class="middle-container">
+            <!-- ------start stories------- -->
+         <div class="stories">
+            <div class="stories-wrapper swiper mySwiper">
+               <div class="swiper-wrapper">
+                   <div class="story swiper-slide" >
+                       <img src="" alt="">
+                       <div class="profile-picture " id="my-profile-picture">
+                           <img src="images/profile-1.jpeg"  >  
+                       </div>
+                       <label for="add-story" class="add-story">
+                           <i class="fa fa-add">                              
+                           </i>
+                           <p>Add <br>Your Story</p>
+                       </label>
+                       <input type="file" accept="image/jpg ,image/png ,image/jpeg" id="add-story">
+                       
+                   </div> 
+                   <div class="story swiper-slide">
+                       <img src="images/st1.jpg" alt="">
+                       <div class="profile-picture">
+                           <img src="images/s1.jpg" alt="">  
+                       </div>
+                       <p>Everhim Alli</p>
+                   </div>
+                   <div class="story swiper-slide">
+                       <img src="images/st2.jpeg" alt="">
+                       <div class="profile-picture" >
+                           <img src="images/s2.jpg" alt="">  
+                       </div>
+                       <p>Lana White</p>
+                   </div>
+                   <div class="story swiper-slide">
+                       <img src="images/st3.jpg" alt="">
+                       <div class="profile-picture" >
+                           <img src="images/s3.jpg" alt="">  
+                       </div>
+                       <p>Furkan Syal</p>
+                   </div>
+                   <div class="story swiper-slide">
+                       <img src="images/m1.jpg" alt="">
+                       <div class="profile-picture">
+                           <img src="images/s4.jpg" alt="">  
+                       </div>
+                       <p>Alexa Lisa</p>
+                   </div>
+                   <div class="story swiper-slide">
+                       <img src="images/st6.jpg" alt="">
+                       <div class="profile-picture">
+                           <img src="images/s5.jpg" alt="">  
+                       </div>
+                       <p>Wilia Jems</p>
+                   </div>
+                   <div class="story swiper-slide">
+                       <img src="images/st5.jpg" alt="">
+                       <div class="profile-picture">
+                           <img src="images/s8 (1).png" alt="">  
+                       </div>
+                       <p>Anny Walkers</p>
+                   </div>
+                   <div class="story swiper-slide">
+                       <img src="images/st9.png" alt="">
+                       <div class="profile-picture">
+                           <img src="images/st9.png" alt="">  
+                       </div>
+                       <p>Jack MM</p>
+                   </div>
+
+               </div>
+            </div>
+        </div>
+                 <!-- ------end stories------- -->
+        <!--  -------- post input ------------ -->
+        <form class="add-post input-post boxshadow1">
+           <div class="profile-picture" id="my-profile-picture">
+               <img src="images/profile-1.jpeg" >
+            </div>
+            <input type="text" placeholder="what's your mind ? " id="add-post">
+            <input type="submit" value="post" class="btn btn-primary">
+       </form>
+
+       <div class="feeds">
+        <div class="feed">
+            <div class="feed-top">
+                <div class="user">
+                    <div class="profile-picture">
+                        <img src="images/n4.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Irfan Habib</h3>
+                        <div class="time text-gry">
+                            <small>PAKISIAN</small> <span>2 DAYS AGO</span>
+                        </div>
+                    </div>
+                </div>
+                <span class="edit">
+                    <img src="svgs/three-dots.svg">
+                    <ul class="edit-menu">
+                        <li><i class="fa fa-pen"></i>Edit</li>
+                        <li><i class="fa fa-trash"></i>Delete</li>
+
+                    </ul>
+                </span>
+            </div>
+            <div class="feed-img">               
+                <img src="images/feed1.jpeg" alt="">
+            </div>
+            <div class="action-button">
+                <div class="interaction-button ">
+                    <span ><i class="fa  fa-heart"></i></span>
+                    <span><i class="fa  fa-comment-dots"></i></span>
+                    <span><i class="fa  fa-link"></i></span>
+                </div>
+                <div class="bookmark">
+                    <span><i class="fa  fa-bookmark"></i></span>
+                </div>
+            </div>
+            <div class="liked-by">
+                <span><img src="images/n2.png"></span>
+                <span><img src="images/n3.png"></span>
+                <span><img src="images/n4.png"></span>
+                <p><b>Jonh Wilia</b> and<b>98 comments other</b></p>                
+            </div>
+            <div class="caption">
+                <p><b>Lana White</b>Lorem ipsum dolor sit amet consectetur adipisicing.
+                <span class="hars-tag">#lifstyle</span> </p>                
+            </div>
+            <div class="comments text-gry">
+                view all comments
+
+            </div>
+
+        </div>
+        <div class="feed">
+            <div class="feed-top">
+                <div class="user">
+                    <div class="profile-picture">
+                        <img src="images/n2.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Mark Joo</h3>
+                        <div class="time text-gry">
+                            <small>PAKISIAN</small> <span> 2 munites ago </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="edit">
+                    <img src="svgs/three-dots.svg">
+                </div>
+            </div>
+            <div class="feed-img">
+                <img src="images/feed2.jpg" alt="">
+            </div>
+            <div class="action-button">
+                <div class="interaction-button">
+                    <span><i class="fa  fa-heart"></i></span>
+                    <span><i class="fa  fa-comment-dots"></i></span>
+                    <span><i class="fa  fa-link"></i></span>
+                </div>
+                <div class="bookmark">
+                    <span><i class="fa  fa-bookmark"></i></span>
+                </div>
+            </div>
+            <div class="liked-by">
+                <span><img src="images/n1.jpg"></span>
+                <span><img src="images/n5.png"></span>
+                <span><img src="images/n3.png"></span>
+                <p><b>Hala Emam</b> and<b> 77 comments other</b></p>                
+            </div>
+            <div class="caption">
+                <p><b>MARIA SAAD</b>Lorem ipsum dolor sit amet consectetur adipisicing.
+                <span class="hars-tag">#lifstyle</span> </p>                
+            </div>
+            <div class="comments text-gry">
+                view all comments
+            </div>
+
+        </div>
+        <div class="feed">
+            <div class="feed-top">
+                <div class="user">
+                    <div class="profile-picture">
+                        <img src="images/f4.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Carolin Mina</h3>
+                        <div class="time text-gry">
+                            <small>PAKISIAN</small> <span>4 hours Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="edit">
+                    <img src="svgs/three-dots.svg">
+                </div>
+            </div>
+            <div class="feed-img">
+                <h2>Hello world ,I'm Irfan <br>
+                    from Paris
+                </h2>
+            </div>
+            <div class="action-button">
+                <div class="interaction-button">
+                    <span><i class="fa  fa-heart"></i></span>
+                    <span><i class="fa  fa-comment-dots"></i></span>
+                    <span><i class="fa  fa-link"></i></span>
+                </div>
+                <div class="bookmark">
+                    <span><i class="fa  fa-bookmark"></i></span>
+                </div>
+            </div>
+            <div class="liked-by">
+                <span><img src="images/n4.png"></span>
+                <span><img src="images/feed2.jpg"></span>
+                <span><img src="images/f3.jpg"></span>
+                <p><b>Jaklen</b> and<b>43 comments other</b></p>                
+            </div>
+            <div class="caption">
+                <p><b>Lana White</b>Lorem ipsum dolor sit amet consectetur adipisicing.
+                <span class="hars-tag">#lifstyle</span> </p>                
+            </div>
+            <div class="comments text-gry">
+                view all comments
+
+            </div>
+
+        </div>
+        <div class="feed">
+            <div class="feed-top">
+                <div class="user">
+                    <div class="profile-picture">
+                        <img src="images/f3.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Alli Ahmed</h3>
+                        <div class="time text-gry">
+                            <small>PAKISIAN</small> <span>3 Days Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="edit">
+                    <img src="svgs/three-dots.svg">
+                </div>
+            </div>
+            <div class="feed-img">
+                <img src="images/feed6.png" alt="">
+            </div>
+            <div class="action-button">
+                <div class="interaction-button">
+                    <span><i class="fa  fa-heart"></i></span>
+                    <span><i class="fa  fa-comment-dots"></i></span>
+                    <span><i class="fa  fa-link"></i></span>
+                </div>
+                <div class="bookmark">
+                    <span><i class="fa  fa-bookmark"></i></span>
+                </div>
+            </div>
+            <div class="liked-by">
+                <span><img src="images/f2.jpg"></span>
+                <span><img src="images/f3.jpg"></span>
+                <span><img src="images/f1.jpg"></span>
+                <p><b>Ayman</b> and<b> 120 comments other</b></p>                
+            </div>
+            <div class="caption">
+                <p><b>Mai Ashraf</b>Lorem ipsum dolor sit amet consectetur adipisicing.
+                <span class="hars-tag">#lifstyle</span> </p>                
+            </div>
+            <div class="comments text-gry">
+                view all comments
+
+            </div>
+
+        </div>
+        <div class="feed myfeed">
+            <div class="feed-top">
+                <div class="user">
+                    <div class="profile-picture">
+                        <img src="images/feed5.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Irfan Habib</h3>
+                        <div class="time text-gry">
+                            <small>PAKISIAN</small> <span>2 DAYS AGO</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="edit">
+                    <img src="svgs/three-dots.svg">
+                </div>
+            </div>
+            <div class="feed-img">
+                <img src="images/feed7.jpg" alt="">
+            </div>
+            <div class="action-button">
+                <div class="interaction-button">
+                    <span><i class="fa  fa-heart"></i></span>
+                    <span><i class="fa  fa-comment-dots"></i></span>
+                    <span><i class="fa  fa-link"></i></span>
+                </div>
+                <div class="bookmark">
+                    <span><i class="fa  fa-bookmark"></i></span>
+                </div>
+            </div>
+            <div class="liked-by">
+                <span><img src="images/n2.png"></span>
+                <span><img src="images/n3.png"></span>
+                <span><img src="images/n4.png"></span>
+                <p><b>Merhen</b> and<b> 454 comments other</b></p>                
+            </div>
+            <div class="caption">
+                <p><b>Mariam </b>Lorem ipsum dolor sit amet consectetur adipisicing.
+                <span class="hars-tag">#lifstyle</span> </p>                
+            </div>
+            <div class="comments text-gry">
+                view all comments
+
+            </div>
+
+        </div>
+        <div class="feed">
+            <div class="feed-top">
+                <div class="user">
+                    <div class="profile-picture">
+                        <img src="images/feed4.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Marry ADK</h3>
+                        <div class="time text-gry">
+                            <small>PAKISIAN</small> <span>1 year Ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="edit">
+                    <img src="svgs/three-dots.svg">
+                </div>
+            </div>
+            <div class="feed-img">
+                <img src="images/feed3.png" alt="">
+            </div>
+            <div class="action-button">
+                <div class="interaction-button">
+                    <span><i class="fa  fa-heart"></i></span>
+                    <span><i class="fa  fa-comment-dots"></i></span>
+                    <span><i class="fa  fa-link"></i></span>
+                </div>
+                <div class="bookmark">
+                    <span><i class="fa  fa-bookmark"></i></span>
+                </div>
+            </div>
+            <div class="liked-by">
+                <span><img src="images/feed7.jpg"></span>
+                <span><img src="images/n3.png"></span>
+                <span><img src="images/feed6.png"></span>
+                <p><b>Jonh Wilia</b> and<b>98 comments other</b></p>                
+            </div>
+            <div class="caption">
+                <p><b>Lana White</b>Lorem ipsum dolor sit amet consectetur adipisicing.
+                <span class="hars-tag">#lifstyle</span> </p>                
+            </div>
+            <div class="comments text-gry">
+                view all comments
+
+            </div>
+
+        </div>       
+       </div>
+       </div>
+    </div>
+        <!--  ================ main  middle end ==================== -->        
+        <!--  main right start-->
+        <div class="main-right">
+            <div class="messages">
+                <div class="message-top">
+                    <h4>Message</h4><i class="fa fa-edit"></i>
+                </div>
+                <div class="message-search-bar">
+                    <i class="fa fa-search"></i>
+                    <input type="search" placeholder="Search Message" id="message-search">
+                </div>
+                <div class="message-categories">
+                    <h6 class="active">Primary</h6>
+                    <h6>General</h6>
+                    <h6 class="message-request">Request(3)</h6>
+                </div>
+                <div class="message">
+                    <div class="profile-picture">
+                        <img src="images/feed4.jpg">
+                        <div class="green-active">
+
+                        </div>
+                    </div>
+                    <div class="message-body">
+                        <h5>Rania Eid</h5>
+                        <p class="text-gry">How are you jaklen</p>
+                    </div>
+                </div>
+                <div class="message">
+                    <div class="profile-picture">
+                        <img src="images/m4.png">
+                        <div class="green-active">
+
+                        </div>
+                    </div>
+                    <div class="message-body">
+                        <h5>Hala </h5>
+                        <p class="text-gry">We must finshed the project today</p>
+                    </div>
+                </div><div class="message">
+                    <div class="profile-picture">
+                        <img src="images/m2.png">
+                        <div class="green-active">
+
+                        </div>
+                    </div>
+                    <div class="message-body">
+                        <h5>Lolo Ayman</h5>
+                        <p class="text-gry"> lolo called you . Dec11</p>
+                    </div>
+                </div><div class="message">
+                    <div class="profile-picture">
+                        <img src="images/m3.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h5>Samier Ezzet</h5>
+                        <p class="text-gry">the video chat ended</p>
+                    </div>
+                </div><div class="message">
+                    <div class="profile-picture">
+                        <img src="images/feed2.jpg">
+                    </div>
+                    <div class="message-body">
+                        <h5>Kero Yousif</h5>
+                        <p class="text-gry">Kero missed your call</p>
+                    </div>
+                </div>
+            </div>
+            <div class="firend-request">
+                <h4>Request</h4>
+                <div class="request">
+                    <div class="info">
+                        <div class="profile-picture">
+                            <img  src="images/Fedd0.jpg">
+                        </div>
+                        <div>
+                            <h5>Samuel Zaki</h5>
+                            <p class="text-gry ">120 mutual firends</p>
+                            <small class="text-gry alert">You have accepted firend request
+                            </small>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <div class="btn btn-primary">
+                            Accept
+                        </div>
+                        <div class="btn btn-danger">
+                            Delete
+                        </div>
+                    </div>
+                </div>
+                <div class="request">
+                    <div class="info">
+                        <div class="profile-picture">
+                            <img  src="images/f1.jpg">
+                        </div>
+                        <div>
+                            <h5>Mark Danele</h5>
+                            <p class="text-gry ">4 mutual firends</p>
+                            <small class="text-gry alert">You have accepted firend request
+                            </small>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <div class="btn btn-primary">
+                            Accept
+                        </div>
+                        <div class="btn btn-danger">
+                            Delete
+                        </div>
+                    </div>
+                </div><div class="request">
+                    <div class="info">
+                        <div class="profile-picture">
+                            <img  src="images/f2.jpg">
+                        </div>
+                        <div>
+                            <h5>Mary eid</h5>
+                            <p class="text-gry ">45 mutual firends</p>
+                            <small class="text-gry alert">You have accepted firend request
+                            </small>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <div class="btn btn-primary">
+                            Accept
+                        </div>
+                        <div class="btn btn-danger">
+                            Delete
+                        </div>
+                    </div>
+                </div><div class="request">
+                    <div class="info">
+                        <div class="profile-picture">
+                            <img  src="images/f3.jpg">
+                        </div>
+                        <div>
+                            <h5>Nader Ayad</h5>
+                            <p class="text-gry ">2 mutual firends</p>
+                            <small class="text-gry alert">You have accepted firend request
+                            </small>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <div class="btn btn-primary">
+                            Accept
+                        </div>
+                        <div class="btn btn-danger">
+                            Delete
+                        </div>
+                    </div>
+                </div><div class="request">
+                    <div class="info">
+                        <div class="profile-picture">
+                            <img  src="images/feed5.jpeg">
+                        </div>
+                        <div>
+                            <h5>Roma Maher</h5>
+                            <p class="text-gry ">11 mutual firends</p>
+                            <small class="text-gry alert">You have accepted firend request
+                            </small>
+                        </div>
+                    </div>
+                    <div class="action">
+                        <div class="btn btn-primary">
+                            Accept
+                        </div>
+                        <div class="btn btn-danger">
+                            Delete
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- main right end -->
+
+
+</div>
+</main>
+<!-- ----------------end main section ----------------- -->
+
+<!-- ---------- start the popups aria ---------------- -->
+
+   <!-- ------ start profile popups ------ -->
+
+<div class="popup profile-box">
+    <div>
+        <div class="popup-box profile-popup-box">
+            <h1>Beg Joker</h1>
+            <p>@thebegjoker</p>
+            <div id="my-profile-picture">
+                <img src="images/profile-1.jpeg" >
+            </div>
+            <label for="profile-upload" class="btn btn-primary btn-lg">Upload profile Picture</label>
+            <input type="file" accept="image/jpg ,image/png ,image/jpeg"  id="profile-upload">
+            <button class="btn btn-primary btn-lg">Log Out</button>
+        </div>
+        <span class="close"><i class="fa fa-close"></i></span>
+    </div>
+   </div>
+   <!-- ------ end profile popups ------ -->
+
+    <!-- ------- start add post popup ---- -->
+     <div class="popup add-post-popup">
+        <div>
+            <form class=" popup-box add-post-popup">
+                <h1>Add New Post</h1>
+                <div class="row post-title">
+                    <label>Title</label>
+                    <input type="text" id="add-post" placeholder="what's on your mind?">
+                </div>
+                <div class="row post-img">
+                    <img src=""  id="postIMg">
+                    <label for="feed-pic-upload" class="feed-upload-button">
+                        <span><i class="fa fa-add"></i></span>Upload A Picture</label>
+                    <input type="file" accept="image/jpg ,image/png ,image/jpeg"  id="feed-pic-upload">
+                    <input type="submit" class="btn btn-primary btn-lg" value="Add post"></input>
+                </div>
+            </form>        
+            <span class="close"><i class="fa fa-close"></i></span>
+        </div>
+    </div>
+
+    <!-- -------- start theme customize popup  ------ -->
+
+    <div class="popup theme-customize">
+        <div>
+            <div class="popup-box  theme-customize-popup-box">
+                <h2>Coustomize Your theme</h2>
+                <p>Manage Your Font Size,Color,and Background</p>
+                 <!-- --------- font-Size -------- -->
+                 <div class="font-size">
+                    <h4>Font Size</h4>
+                <div>
+                    <div>
+                        <h6>Aa</h6>
+                    </div>
+                    <div class="choose-size">
+                            <span class="font-size-1"></span>
+                            <span class="font-size-2 active"></span>
+                            <span class="font-size-3"></span>
+                            <span class="font-size-4"></span>
+                            <span class="font-size-5"></span>
+                    </div>
+                    <div>
+                        <h3>Aa</h3>
+                    </div>    
+                 </div>
+                </div>
+                 <div class="colors">
+                    <h4>Color</h4>
+                    <div class="choose-color">
+                        <span class="color-1 active"></span>
+                        <span class="color-2 "></span>
+                        <span class="color-3 "></span>
+                        <span class="color-4 "></span>
+                        <span class="color-5 "></span>
+                    </div>
+                 </div>
+                 <div class="background">
+                    <h4>Background</h4>
+                    <div class="choose-bg">
+                       <div class="bg1 active">
+                        <span></span>
+                        <h5 class>Light</h5>
+                       </div>
+                         <div class="bg2">
+                        <span></span>
+                        <h5>Dark</h5>
+                        </div>
+                    </div>
+
+                 </div>
+                </div>
+        <span class="close"><i class="fa fa-close"></i></span>
+        </div> 
+
+    </div>
+    <!-- ------- end add post popup ---- -->
+
+
+<!-- ---------- end the popups aria ---------------- -->
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--- Cuntom Js Link-->
+    <script src="main.js"></script>
+</body>
+</html>
